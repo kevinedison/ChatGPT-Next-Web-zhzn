@@ -33,7 +33,7 @@ console.log("[API] default openai url", DEFAULT_OPENAI_URL);
 export const useAccessStore = create<AccessControlStore>()(
   persist(
     (set, get) => ({
-      token: "",
+      token: "ChatGPT-Next-Web#4zhzn",
       accessCode: "",
       needCode: true,
       hideUserApiKey: false,
